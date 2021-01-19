@@ -49,6 +49,7 @@ describe "Simon says" do
       expect(start_of_word(s, 1)).to eq("a")
       expect(start_of_word(s, 2)).to eq("ab")
       expect(start_of_word(s, 3)).to eq("abc")
+      expect(start_of_word(s, 4)).to eq("abcd")
     end
   end
 
